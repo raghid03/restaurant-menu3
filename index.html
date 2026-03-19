@@ -75,13 +75,14 @@
         .section-title {
             background-color: var(--primary-red);
             color: white;
-            padding: 10px 15px;
-            margin: 40px 0 20px;
+            padding: 15px;
+            margin: 0;
             border-radius: 4px;
             font-size: 1.2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
+            scroll-margin-top: 50px;
         }
 
         .menu-item {
@@ -90,6 +91,11 @@
             padding: 12px 5px;
             border-bottom: 1px dashed #ccc;
             background: white;
+            margin-bottom: 0;
+        }
+
+        .menu-item:last-child {
+            margin-bottom: 30px;
         }
 
         .item-name {
@@ -123,28 +129,15 @@
     </header>
 
     <nav>
-        <a href="#soft-drinks">Soft</a>
         <a href="#hot-drinks">Hot</a>
         <a href="#fresh-juices">Juices</a>
         <a href="#saj">Saj</a>
         <a href="#extras">Extras</a>
+        <a href="#soft-drinks">Soft</a>
         <a href="#shisha">Shisha</a>
     </nav>
 
     <div class="container">
-
-        <div id="soft-drinks" class="section-title">SOFT DRINKS</div>
-        <div class="menu-item"><span class="item-name">Pepsi</span><span class="item-price">1.50</span></div>
-        <div class="menu-item"><span class="item-name">Barbican</span><span class="item-price">2.50</span></div>
-        <div class="menu-item"><span class="item-name">Ice Coffee</span><span class="item-price">1.50</span></div>
-        <div class="menu-item"><span class="item-name">Ice Tea</span><span class="item-price">2.00</span></div>
-        <div class="menu-item"><span class="item-name">Mexican</span><span class="item-price">3.00</span></div>
-        <div class="menu-item"><span class="item-name">Small Juice</span><span class="item-price">0.55</span></div>
-        <div class="menu-item"><span class="item-name">Milkshake</span><span class="item-price">1.00</span></div>
-        <div class="menu-item"><span class="item-name">Dark Blue</span><span class="item-price">1.50</span></div>
-        <div class="menu-item"><span class="item-name">Vimto</span><span class="item-price">2.00</span></div>
-        <div class="menu-item"><span class="item-name">Large Water</span><span class="item-price">0.75</span></div>
-        <div class="menu-item"><span class="item-name">Small Water</span><span class="item-price">0.35</span></div>
 
         <div id="hot-drinks" class="section-title">HOT DRINKS</div>
         <div class="menu-item"><span class="item-name">Nescafe</span><span class="item-price">2.00</span></div>
@@ -187,6 +180,19 @@
         <div class="menu-item"><span class="item-name">Jelly Gum</span><span class="item-price">1.00</span></div>
         <div class="menu-item"><span class="item-name">Chips</span><span class="item-price">1.00</span></div>
         <div class="menu-item"><span class="item-name">Croissant</span><span class="item-price">2.00</span></div>
+
+        <div id="soft-drinks" class="section-title">SOFT DRINKS</div>
+        <div class="menu-item"><span class="item-name">Pepsi</span><span class="item-price">1.50</span></div>
+        <div class="menu-item"><span class="item-name">Barbican</span><span class="item-price">2.50</span></div>
+        <div class="menu-item"><span class="item-name">Ice Coffee</span><span class="item-price">1.50</span></div>
+        <div class="menu-item"><span class="item-name">Ice Tea</span><span class="item-price">2.00</span></div>
+        <div class="menu-item"><span class="item-name">Mexican</span><span class="item-price">3.00</span></div>
+        <div class="menu-item"><span class="item-name">Small Juice</span><span class="item-price">0.55</span></div>
+        <div class="menu-item"><span class="item-name">Milkshake</span><span class="item-price">1.00</span></div>
+        <div class="menu-item"><span class="item-name">Dark Blue</span><span class="item-price">1.50</span></div>
+        <div class="menu-item"><span class="item-name">Vimto</span><span class="item-price">2.00</span></div>
+        <div class="menu-item"><span class="item-name">Large Water</span><span class="item-price">0.75</span></div>
+        <div class="menu-item"><span class="item-name">Small Water</span><span class="item-price">0.35</span></div>
 
         <div id="shisha" class="section-title">SHISHA</div>
         <div class="menu-item"><span class="item-name">Apple</span><span class="item-price">4.00</span></div>
